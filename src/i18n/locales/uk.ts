@@ -1,0 +1,96 @@
+import type en from './en'
+
+const uk: typeof en = {
+  app: {
+    title: 'Pixel Weather',
+    tagline: '8-бітний прогноз для твоїх міст',
+    footer: 'Дані про погоду від OpenWeatherMap',
+  },
+  tabs: {
+    label: 'Розділи',
+    home: 'Головна',
+    favorites: 'Вибране',
+  },
+  settings: {
+    language: 'Мова',
+    units: 'Одиниці',
+    toDay: 'Увімкнути денний режим',
+    toNight: 'Увімкнути нічний режим',
+  },
+  search: {
+    label: 'Місто',
+    placeholder: 'Пошук міста...',
+    loading: 'Шукаємо...',
+    empty: 'Міст не знайдено',
+    hint: 'Введіть щонайменше 2 літери',
+  },
+  block: {
+    add: 'Додати блок',
+    counter: 'Блоки: {count}/{max}',
+    remove: 'Видалити блок',
+    refresh: 'Оновити',
+    empty: 'Оберіть місто, щоб побачити погоду',
+    locating: 'Шукаємо ваше місто...',
+    loading: 'Завантажуємо погоду...',
+  },
+  mode: {
+    label: 'Період прогнозу',
+    day: 'День',
+    week: '5 днів',
+  },
+  favorites: {
+    add: 'Додати у вибране',
+    remove: 'Видалити з вибраного',
+    removeShort: 'Прибрати',
+    badge: 'Вибране',
+    empty: 'У вибраному поки порожньо',
+    emptyHint: 'Натисніть зірочку на будь-якому блоці погоди, щоб зберегти місто тут.',
+    toHome: 'До міст',
+    limitTitle: 'Вибране заповнене',
+    limitText: 'Для додавання {city} видаліть одне з міст нижче, тому що максимум {max}.',
+    removeCity: 'Видалити {city}',
+  },
+  weather: {
+    now: 'Зараз',
+    today: 'Сьогодні',
+    feelsLike: 'Відчувається',
+    humidity: 'Вологість',
+    wind: 'Вітер',
+    pressure: 'Тиск',
+    clouds: 'Хмарність',
+    minMax: 'Мін / Макс',
+    sunrise: 'Схід',
+    sunset: 'Захід',
+    average: 'сер.',
+    rainChance: 'Дощ',
+  },
+  units: {
+    speedMetric: 'м/с',
+    speedImperial: 'мит/год',
+    pressure: 'гПа',
+  },
+  chart: {
+    today: 'Температура сьогодні',
+    next: 'Температура на найближчі 24 години',
+    week: 'Середня температура на 5 днів',
+  },
+  modal: {
+    close: 'Закрити',
+    cancel: 'Скасувати',
+    confirm: 'Видалити',
+    removeTitle: 'Видалити блок?',
+    removeText: 'Блок з містом {city} буде видалено.',
+    removeEmpty: 'Цей порожній блок буде видалено.',
+  },
+  errors: {
+    network: 'Немає зʼєднання з сервісом погоди',
+    unauthorized: 'Невірний API ключ',
+    notFound: 'Місто не знайдено',
+    rateLimit: 'Забагато запитів, спробуйте за хвилину',
+    server: 'Сервіс погоди недоступний',
+    missingKey: 'Відсутній API ключ, додайте VITE_OWM_KEY у .env',
+    retry: 'Спробувати ще',
+  },
+}
+
+export default uk
