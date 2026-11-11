@@ -69,6 +69,8 @@ VITE_OWM_KEY=your_openweathermap_api_key
 
 Конфігурація для SPA-маршрутизації вже додана для Vercel (`vercel.json`) та Netlify (`public/_redirects`). У налаштуваннях хостингу потрібно додати змінну середовища `VITE_OWM_KEY`.
 
+Для розгортання в підпапці домену базовий шлях задається змінною `BASE_PATH`, наприклад `BASE_PATH=/weather-app/` у `.env` перед `npm run build`.
+
 ## Ліцензія
 
 © 2026 [SHVGVN](https://github.com/SHVGVN). Усі права захищено. Код надано лише для ознайомлення в межах розгляду кандидатури, умови використання — у файлі [LICENSE](LICENSE).
